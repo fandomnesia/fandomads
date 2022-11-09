@@ -77,7 +77,6 @@ real = https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-
 
 		loadAd = function( ad )
 		{
-			( adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
 			( adsbygoogle = window.adsbygoogle || []).push({});
 
 			var onLoadFn = ad._adsenseLoaderData.options.onLoad;
